@@ -1,0 +1,8 @@
+.parcours{
+	background-color: white;
+}
+.parcours .content{
+	max-width: 100%;
+	min-width: 100%;
+	width: 100%;
+}
