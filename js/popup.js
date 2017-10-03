@@ -1,0 +1,3 @@
+$(function(){
+    $(".fancit").fancybox();
+});

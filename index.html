@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Josselin TILLAY-DOLEDEC</title>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" />
+	<link rel="stylesheet" href="css.css">
+	
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/filter.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid header" id="home">
+		<div class="header-hover">
+			<div class="navbar navbar-default navbar-static-top navbar-fixed-top navbar-inverse" id="nav">
+				<!--<div class="col-md-1 col-md-offset-4">Home</div>
+				<div class="col-md-1">Projets</div>
+				<div class="col-md-1">Timeline</div>
+				<div class="col-md-1">Identité</div>-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand smooth-scroll" href="#" data-anchor="home">
+						<img alt="Brand" src="assets/avatar-rond.png">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#" class="smooth-scroll" data-anchor="home">Home</a></li>
+						<li><a href="#" class="smooth-scroll" data-anchor="projects">Projets</a></li>
+						<li><a href="#" class="smooth-scroll" data-anchor="timeline">Expérience</a></li>
+						<li><a href="#" class="smooth-scroll" data-anchor="identity">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="vertical-centered">
+				<img src="assets/avatar-rond.png"/>
+				<h1>Josselin TILLAY-DOLEDEC</h1>
+				<h2>Développeur Nantais</h2>
+				<h1 class="smooth-scroll" data-anchor="projects"><span class="glyphicon glyphicon-menu-down"></span></h1>
+			</div>
+		</div>
+	</div>
+	<div class="container all filter-container" id="projects">
+		<div class="row">
+			<div class="col-md-12 cat-header page-header">
+				<h1 class="inlinizer">Projets</h1>
+				<div class="dropdown inlinizer">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Filtrer
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li class="filter" data-filter="all">Tous</li>
+						<li class="filter" data-filter="innovation">Innovation</li>
+						<li class="filter" data-filter="android">Android</li>
+						<li class="filter" data-filter="javascript">Javascript</li>
+						<li class="filter" data-filter="angularjs">AngularJS</li>
+						<li class="filter" data-filter="perso">Projet personnel</li>
+						<li class="filter" data-filter="recherche">Recherche</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row carreable">
+			<div class="col-md-4">
+				<a href="assets/wam/home-1.png" class="fancit filterable wam angularjs perso javascript" rel="wam">
+					<div>
+						<h2>We Are The Models</h2>
+						<p>Développement d'une plateforme web de partage de looks</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="assets/explornova/site-1.png" rel="explornova" class="fancit filterable explornova innovation android javascript">
+					<div>
+						<h2>Explornova</h2>
+						<p>Développement d'un système de contrôle de panorama 360 à partir d'interface variées (Tablette, Leap Motion)</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="assets/netadit/home-1.png" rel="netadit" class="fancit filterable netadit innovation recherche">
+					<div>
+						<h2>Le Net A Dit</h2>
+						<p>Développement d'une plateforme Web d'analyse de populations et d'invidus sur Twitter et représentation sous forme de graphe</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="row carreable">
+			<div class="col-md-4">
+				<a href="assets/neurokiff/home-1.jpg" rel="neurokiff" class="fancit filterable neurokiff innovation android recherche">
+					<div>
+						<h2>Neurokiff</h2>
+						<p>Développement d'une application d'analyse des émotions en temps réel pour un environnement évenementiel</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="assets/tastit/app-1.jpg" rel="tastit" class="fancit filterable tastit perso">
+					<div>
+						<h2>Tast it</h2>
+						<p>Tast it est un concept d'application de scan pour l'aide à l'achat développé durant le Start-Up Weekend 2015 de Nantes</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="assets/forge/home-1.png" rel="forge" class="fancit filterable forge angularjs perso javascript">
+					<div>
+						<h2>La Forge d'Ivoire</h2>
+						<p>Développement d'un site web d'e-commerce pour un artisant</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="row carreable">
+			<div class="col-md-4">
+				<a href="assets/creascop/home-1.png" rel="creascop" class="fancit filterable creascop perso">
+					<div>
+						<h2>Site web Créascop</h2>
+						<p>Développement d'un site web de vente d'un logiciel d'aide à la création d'entreprise</p>
+						<span><u>Voir la galerie</u></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="timeline">
+		<div class="row">
+			<div class="col-md-12 page-header">
+				<h1>Expérience</h1>
+			</div>
+		</div>
+		<div class="row experience">
+			<div class="col-md-4 startup centerer"></div>
+			<div class="col-md-2 centerer hcenter">
+				<div class="content hcenter">Septembre 2015</div>
+			</div>
+			<div class="col-md-6 centerer">
+				<div class="content">
+					Le Startup Weekend 2015 de Nantes s'est déroulé entre le 25 et le 27 Septembre à la Cantine numérique. Durant cet évènement, j'ai intégré l'équipe Tast'It. Le projet initial était de proposer une application d'aide à l'achat dans les supermarchés grâce à des avis produits par la communauté. L'accès à une fiche produit se serait fait grâce au scan du code-barre.<br/>
+					Durant ce weekend, nous n'avons pas développer de prototypes mais nous sommes passé par toutes les phases de conception d'un projet, de la naissance de l'idée à la présentation devant des investisseurs en passant par des enquètes d'opinions.
+				</div>
+			</div>
+		</div>
+		<div class="row experience">
+			<div class="col-md-4 irealite visible-sm-block visible-xs-block"></div>
+			<div class="col-md-6 centerer">
+				<div class="content">
+					J'ai travaillé à iRéalité entre février 2013 et septembre 2015. J'y ai effectué mon stage sur le projet Le Net à Dit, une plateforme web permettant de caractériser la communauté Twitter sur un sujet particulier. Après mon stage, j'ai été embauché et j'ai pu travailler sur plusieurs projets. Les principaux ont été Explornova et Neurokiff. J'ai aussi travaillé sur des projets plus "classiques" de sites web et d'applications Android (valdoiseMyBalade par exemple).
+				</div>
+			</div>
+			<div class="col-md-2 centerer hcenter">
+				<div class="content hcenter">
+					De février 2013<br/>
+					à septembre 2015
+				</div>
+			</div>
+			<div class="col-md-4 irealite hidden-sm hidden-xs"></div>
+		</div>
+		<div class="row experience">
+			<div class="col-md-4 wam centerer"></div>
+			<div class="col-md-2 centerer hcenter">
+				<div class="content hcenter">
+					De juillet 2013<br/>
+					à août 2015
+				</div>
+			</div>
+			<div class="col-md-6 centerer">
+				<div class="content">
+					We Are The Models est une communauté qui a pour but l'entraide lors du choix et de l'achat de vêtements en ligne. A l'inscription, des données morphologiques simples sont demandées à l'utilisateur pour qu'il soit ensuite mis en relation avec les personnes partageant sa morphologie.<br/>
+					J'ai travaillé sur ce projet de juillet 2013 à août 2015 sur mon temps libre. Jai développé la première version du site en Symfony2 et une partie de la seconde version du site en Angular.
+				</div>
+			</div>
+		</div>
+		<div class="row experience">
+			<div class="col-md-4 polytech centerer visible-sm-block visible-xs-block"></div>
+			<div class="col-md-6 centerer">
+				<div class="content">
+					J'ai fait mes études à Polytech'Nantes entre 2008 et 2013 dans lequel j'ai obtenu un diplôme d'Ingénieur en Informatique et un master en Fouille de Données.
+				</div>
+			</div>
+			<div class="col-md-2 centerer">
+				<div class="content hcenter hcenter">
+					De septembre 2008<br/>
+					à juin 2013
+				</div>
+			</div>
+			<div class="col-md-4 polytech centerer hidden-sm hidden-xs"></div>
+		</div>
+	</div>
+	<div class="container" id="identity">
+			<div class="row">
+				<div class="col-md-12  page-header">
+					<h1>Contact</h1>
+				</div>
+			</div>
+		<div class="row social">
+			<div class="col-md-3 twitter"><a target="_blank" href="https://twitter.com/JosselinTD"><img src="assets/twitter.png"/></a></div>
+			<div class="col-md-3 mail">
+				<script type="text/javascript">
+					document.write('<a target="_blank" href="mai'+"lto:"+"josselin"+'.td@'+'gmail.com"><img src="assets/gmail.png"/></a>');
+				</script>
+			</div>
+			<div class="col-md-3 linkedin"><a target="_blank" href="https://fr.linkedin.com/in/josselintd"><img src="assets/linkedin.png"/></a></div>
+			<div class="col-md-3 github"><a target="_blank" href="https://github.com/JosselinTD"><img src="assets/github.png"/></a></div>
+		</div>
+	</div>
+	<a href="assets/wam/home-2.png" rel="wam" class="fancit"></a>
+	<a href="assets/explornova/expo-1.jpg" rel="explornova" class="fancit"></a>
+	<a href="assets/explornova/expo-2.jpg" rel="explornova" class="fancit"></a>
+	<a href="assets/explornova/expo-4.jpg" rel="explornova" class="fancit"></a>
+	<a href="assets/tastit/desc-1.jpg" rel="tastit" class="fancit"></a>
+	<a href="assets/neurokiff/app-1.jpg" rel="neurokiff" class="fancit"></a>
+	<a href="assets/neurokiff/app-2.jpg" rel="neurokiff" class="fancit"></a>
+	<a href="assets/neurokiff/app-3.png" rel="neurokiff" class="fancit"></a>
+	<a href="assets/netadit/home-2.png" rel="netadit" class="fancit"></a>
+	<a href="assets/forge/home-2.png" rel="forge" class="fancit"></a>
+	<a href="assets/forge/home-3.png" rel="forge" class="fancit"></a>
+	<a href="assets/creascop/home-2.png" rel="creascop" class="fancit"></a>
+</body>
+</html>

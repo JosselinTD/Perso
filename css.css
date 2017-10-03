@@ -1,0 +1,324 @@
+body{
+    background-image: url(assets/symphony.png);
+}
+
+.header{
+    background-image:url(assets/elephant.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.header-hover{
+    background-color:rgba(0,0,0,0.5);
+    height: 100%;
+    display:block;
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+
+.vertical-centered{
+    position:absolute;
+    width:100%;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+
+#projects{
+}
+
+#nav img{
+    max-height:100%;
+}
+.smooth-scroll{
+    cursor:pointer;
+}
+
+.rond{
+    border-radius:100%;
+}
+
+#projects img{
+    max-width:100%
+}
+
+.preview-square{
+    width:100px;
+    height:100px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:auto;
+    
+    border:3px solid grey;
+}
+
+.filter{
+    cursor:pointer;
+}
+
+#projects:not(.all) .filterable{
+    opacity:0.5;
+}
+
+#projects.android .android,
+#projects.angularjs .angularjs,
+#projects.recherche .recherche,
+#projects.perso .perso,
+#projects.javascript .javascript,
+#projects.innovation .innovation
+{
+    opacity:1;
+}
+
+#projects.android [data-filter="android"],
+#projects.angularjs [data-filter="angularjs"],
+#projects.recherche [data-filter="recherche"],
+#projects.perso [data-filter="perso"],
+#projects.javascript [data-filter="javascript"],
+#projects.innovation [data-filter="innovation"],
+#projects.all [data-filter="all"]
+{
+    background-color:#5bc0de;
+    color:white;
+    border-color:#5bc0de;
+}
+
+[data-filter]:hover{
+    background-color:#5bc0de;
+    color:white;
+    border-color:#5bc0de;
+}
+
+.filters{
+    margin-bottom:15px;
+}
+
+#timeline span:not(.very-small){
+    font-size:1.7em;
+}
+
+.very-small{
+    font-size:0.5em;
+}
+
+.valign{
+    text-align:center;
+}
+
+li.filter{
+    padding-left: 10px;
+}
+
+.inlinizer{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1.inlinizer{
+    margin-right: 15px;
+}
+
+.dropdown.inlinizer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cat-header{
+    margin-bottom:20px;
+}
+
+.timeline-content{
+    text-align: center;
+}
+
+.timeline-content .pair{
+    border:1px solid grey;
+    border-left:none;
+    border-right:none;
+}
+
+.timeline-content .impair{
+    border:1px solid grey;
+    border-left:none;
+    border-right:none;
+    background-color:#5bc0de;
+    color:white;
+}
+
+.timeline-content .premier{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-left:1px solid grey;
+}
+
+.timeline-content .dernier{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-right:1px solid grey;
+}
+
+#timeline .asterisks{
+    text-align: center;
+    font-size: 0.3em;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+#timeline .asterisks span{
+    display: block;
+}
+
+.timeline-text{
+    font-size:1.3em;
+}
+
+#timeline{
+}
+
+.social > *{
+    vertical-align:middle;
+    text-align:center;
+    padding:3px;
+}
+.social a{
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+.social div img{
+    height:100px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.twitter a{
+    background-color:#55acee;
+}
+.twitter a:hover{
+    background-color: #3C93D5;
+}
+.github a{
+    background-color:#171516;
+}
+.github a:hover{
+    background-color: #312F30;
+}
+.linkedin a{
+    background-color:#00A0DC;
+}
+.linkedin a:hover{
+    background-color: #0087C3;
+}
+.mail a{
+    background-color:#e6e6e6;
+}
+.mail a:hover{
+    background-color: #CDCDCD;
+}
+.explornova{
+    background-image:url(assets/explornova.png);
+    background-color: #07072a;
+}
+.neurokiff{
+    background-image:url(assets/fondneurokiff.png);
+    background-color: #1d191b;
+}
+.wam{
+    background-image:url(assets/logosig.png);
+    background-color:#C73F67;
+}
+.netadit{
+    background-image:url(assets/net-a-dit-load.png);
+    background-color: #00b2d9;
+}
+.forge{
+    background-image:url(assets/forge.png);
+    background-color:#3a110d;
+}
+.tastit{
+    background-image:url(assets/tast-it.png);
+    background-color:#f8b133;
+}
+.creascop{
+    background-image:url(assets/scop.png);
+    background-color: #e4003f;
+}
+.polytech{
+    background-image: url(assets/polytech.png);
+    background-color:#009cde;
+}
+.startup{
+    background-image: url(assets/startup-weekend.png);
+    background-color:#fdc800;
+}
+.irealite{
+    background-image: url(assets/irealite.png);
+    background-color: #00649f;
+}
+.carreable > .col-md-4{
+    padding-left:3px;
+    padding-right:3px;
+}
+.carreable a{
+    background-position:center;
+    background-repeat:no-repeat;
+    height:180px;
+    cursor:pointer;
+    display:inline-block;
+    width:100%;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carreable a > div{
+    opacity:0;
+    width:100%;
+    height:180px;
+    background-color:rgba(0,0,0,0.8);
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:white;
+    padding:20px;
+    padding-top:0;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-transition:opacity 200ms;
+    transition:opacity 200ms;
+}
+.carreable a:hover > div{
+    opacity:1;
+}
+
+.experience .col-md-4{
+    background-position:center;
+    background-repeat:no-repeat;
+    height:180px;
+}
+.experience .centerer{
+    position:relative;
+    min-height:180px;
+}
+.experience .content{
+    position:absolute;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.hcenter{
+    text-align:center;
+}
+.content.hcenter{
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    width:100%;
+}
